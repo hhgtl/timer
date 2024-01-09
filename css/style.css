@@ -1,0 +1,33 @@
+body {
+    background-color: chocolate;
+}
+
+.promotion_timer {
+    margin-top: 150px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.timer {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer__block + .timer__block {
+    margin-left: 50px;
+}
+
